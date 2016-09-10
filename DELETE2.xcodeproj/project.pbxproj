@@ -14,6 +14,7 @@
 		BD5786401D845A37001DB12B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD57863E1D845A37001DB12B /* LaunchScreen.storyboard */; };
 		BD57864B1D845A37001DB12B /* DELETE2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD57864A1D845A37001DB12B /* DELETE2Tests.swift */; };
 		BD5786561D845A37001DB12B /* DELETE2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5786551D845A37001DB12B /* DELETE2UITests.swift */; };
+		BD5786641D84606E001DB12B /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5786631D84606E001DB12B /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BD5786511D845A37001DB12B /* DELETE2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DELETE2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5786551D845A37001DB12B /* DELETE2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DELETE2UITests.swift; sourceTree = "<group>"; };
 		BD5786571D845A37001DB12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5786631D84606E001DB12B /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BD5786351D845A37001DB12B /* AppDelegate.swift */,
 				BD5786371D845A37001DB12B /* ViewController.swift */,
+				BD5786631D84606E001DB12B /* NetworkController.swift */,
 				BD5786391D845A37001DB12B /* Main.storyboard */,
 				BD57863C1D845A37001DB12B /* Assets.xcassets */,
 				BD57863E1D845A37001DB12B /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				BD5786381D845A37001DB12B /* ViewController.swift in Sources */,
 				BD5786361D845A37001DB12B /* AppDelegate.swift in Sources */,
+				BD5786641D84606E001DB12B /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
